@@ -264,3 +264,34 @@ label {
 .submit-button:hover{
     background-color: #129c47;
 }
+
+@media screen and (min-width: 768px){
+.container {
+    max-width: 720px;
+    font-size: .8rem;
+    line-height: 2.1rem;
+}
+form {
+    padding: 2rem;
+}
+}
+
+@media screen and (max-width: 576px){
+.container {
+    width: 100%;
+    max-width: 540px;
+    font-size: .8rem;
+    line-height: 2.3rem;
+    margin: 3.125rem auto 0 auto;
+}
+form {
+    padding: 2rem;
+}
+}
+
+@media screen and (min-width: 480px){
+   
+form {
+    padding: 2.5rem;
+}
+}
